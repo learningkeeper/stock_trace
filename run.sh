@@ -9,3 +9,4 @@ cd /home/pi/tsec/
 /usr/bin/git fetch --depth=1
 /usr/bin/git reflog expire --expire-unreachable=now --all
 /usr/bin/git gc --aggressive --prune=all
+/home/pi/tsec/dailydata.py
