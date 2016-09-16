@@ -5,7 +5,7 @@ import sh
 
 title = [ u"交易日期", u"成交股數", u"成交金額", u"開盤價", u"最高價", u"最低價", u"收盤價", u"漲跌價差" ,u"成交筆數"]
 
-stock = [ (u"第一金", "data/2892.csv"), ( u"0056", "data/0056.csv"), (u"中華電信", "data/2412.csv"), (u"合庫金", "data/5880.csv"), (u"中信金", "data/2891.csv")]
+stock = [ (u"第一金", "data/2892.csv") , ( u"0050", "data/0050.csv"), ( u"0056", "data/0056.csv"), (u"中華電信", "data/2412.csv"), (u"合庫金", "data/5880.csv"), (u"中信金", "data/2891.csv")]
 
 def check_stock(x):
     result = sh.tail('-1', x).split(',')
