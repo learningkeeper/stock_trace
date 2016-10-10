@@ -11,7 +11,7 @@
 ## Setup
 
 ```
-$ git clone https://github.com/Asoul/tsec.git
+https://github.com/learningkeeper/tsec/tsec.git
 
 $ cd tsec
 
