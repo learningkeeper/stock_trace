@@ -4,7 +4,7 @@
 
 # Taiwan Stock Exchange Crawler
 
-這是一個去爬 [台灣證券交易所](http://www.twse.com.tw/) 和 [證券櫃檯買賣中心](http://www.tpex.org.tw/) 的爬蟲，秉持著 Open Data 的理念，公開爬蟲公開資料最安心。
+這是一個去爬 [台灣證券交易所](http://www.twse.com.tw/) 和 [證券櫃檯買賣中心](http://www.tpex.org.tw/) 的爬蟲，我修改了原作者起始日期，加入了挑選我要的股票的script，並寄到我的信箱。
 
 
 
