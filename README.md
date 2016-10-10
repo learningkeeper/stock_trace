@@ -1,5 +1,7 @@
 # tsec
+
 - [原作者連結](https://github.com/Asoul/tsec.git)
+
 # Taiwan Stock Exchange Crawler
 
 這是一個去爬 [台灣證券交易所](http://www.twse.com.tw/) 和 [證券櫃檯買賣中心](http://www.tpex.org.tw/) 的爬蟲，秉持著 Open Data 的理念，公開爬蟲公開資料最安心。
