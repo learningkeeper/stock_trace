@@ -20,7 +20,7 @@ def crawler(url):
                 for i in result:
                     with open('/home/pi/tsec/stocknumber.txt', 'a+') as outfile:
                         my_cmd = 'echo' + " " + i + "\n"
-                        subprocess.call(my_cmd, shell=True, stdout=outfile, stderr=subprocess.STDOUT)
+                        subprocess.Popen(my_cmd, shell=True, stdout=outfile, stderr=subprocess.STDOUT).wait()
             except Exception,e:
                 print str(e)
 
